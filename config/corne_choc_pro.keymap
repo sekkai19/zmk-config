@@ -28,10 +28,10 @@
             //                    | GUI | LWR | SPC |               | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB    &kp Q                 &kp W                &kp E     &kp R  &kp T      &kp C_MUTE  &kp DE_EXCLAMATION  &kp DE_Z  &mt DE_U_UMLAUT DE_U  &kp I      &mt DE_O_UMLAUT DE_O  &kp P            &kp BSPC
-&kp LCTRL  &mt DE_A_UMLAUT DE_A  &mt DE_SHARP_S DE_S  &kp D     &kp F  &kp G      &kp DE_AT   &kp DE_HASH         &kp H     &kp J                 &kp K      &kp L                 &kp DE_O_UMLAUT  &kp DE_QMARK
-&kp LSHFT  &kp DE_Y              &kp X                &kp C     &kp V  &kp B                                      &kp N     &kp M                 &kp COMMA  &kp DOT               &kp DE_MINUS     &kp DE_SHARP_S
-                                                      &kp LGUI  &mo 1  &kp SPACE                                  &kp RET   &mo 2                 &kp RALT
+&kp TAB    &kp Q                 &kp W                &kp E     &kp R  &kp T      &kp C_MUTE  &mt DE_QMARK DE_EXCLAMATION  &kp DE_Z  &mt DE_U_UMLAUT DE_U  &kp I      &mt DE_O_UMLAUT DE_O  &kp P            &kp BSPC
+&kp LCTRL  &mt DE_A_UMLAUT DE_A  &mt DE_SHARP_S DE_S  &kp D     &kp F  &kp G      &kp DE_AT   &kp DE_HASH                  &kp H     &kp J                 &kp K      &kp L                 &kp DE_O_UMLAUT  &kp DE_QMARK
+&kp LSHFT  &kp DE_Y              &kp X                &kp C     &kp V  &kp B                                               &kp N     &kp M                 &kp COMMA  &kp DOT               &kp DE_MINUS     &kp DE_SHARP_S
+                                                      &kp LGUI  &mo 1  &kp SPACE                                           &kp RET   &mo 2                 &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
