@@ -70,7 +70,7 @@
 
             bindings = <
 &kp TAB    &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp LCTRL  &kp LS(PRCNT)  &kp CARET  &kp LS(LPAR)  &kp LS(RPAR)  &kp LBRC      &kp RBRC      &kp BSPC
-&kp LCTRL  &trans    &trans  &trans    &trans    &trans     &kp LALT   &kp LS(DLLR)   &kp MINUS  &kp LBKT      &kp RBKT      &kp LS(AMPS)  &kp PIPE      &kp GRAVE
+&kp LCTRL  &trans    &trans  &trans    &trans    &trans     &kp LALT   &kp LS(DLLR)   &kp MINUS  &kp LBKT      &kp RBKT      &kp LS(AMPS)  &kp DE_PIPE   &kp GRAVE
 &kp LSHFT  &trans    &trans  &trans    &trans    &trans                               &kp LT     &kp LS(GT)    &kp PLUS      &kp MINUS     &kp LS(STAR)  &kp PLUS
                              &kp LGUI  &trans    &kp SPACE                            &kp RET    &trans        &kp RALT
             >;
