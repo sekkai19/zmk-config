@@ -42,7 +42,7 @@
             //                    | GUI | LWR | SPC |               | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB    &mt DE_AT_SIGN DE_Q   &kp W                &mt DE_EURO DE_E  &kp R              &kp T      &kp C_MUTE                 &mt DE_QMARK DE_EXCLAMATION  &kp DE_Z  &mt DE_U_UMLAUT DE_U  &kp I         &mt DE_O_UMLAUT DE_O  &kp P                                 &kp BSPC
+&kp TAB    &mt RA(DE_Q) DE_Q     &kp W                &mt DE_EURO DE_E  &kp R              &kp T      &kp C_MUTE                 &mt DE_QMARK DE_EXCLAMATION  &kp DE_Z  &mt DE_U_UMLAUT DE_U  &kp I         &mt DE_O_UMLAUT DE_O  &kp P                                 &kp BSPC
 &kp LCTRL  &mt DE_A_UMLAUT DE_A  &mt DE_SHARP_S DE_S  &kp D             &kp F              &kp G      &mt DE_SLASH DE_BACKSLASH  &kp DE_AMPS                  &kp H     &kp J                 &kp K         &kp L                 &mt DE_SINGLE_QUOTE DE_DOUBLE_QUOTES  &kp DE_HASH
 &kp LSHFT  &kp DE_Y              &kp X                &kp C             &kp V              &kp B                                                              &kp N     &kp M                 &kp COMMA     &kp DOT               &kp DE_MINUS                          &kp DE_PERCENT
                                                       &lt 3 LEFT_ARROW  &lt 1 RIGHT_ARROW  &kp SPACE                                                          &kp RET   &lt 2 DOWN_ARROW      &kp UP_ARROW
