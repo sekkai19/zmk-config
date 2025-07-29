@@ -20,6 +20,15 @@
 };
 
 / {
+    macros {
+        Password: TestMacro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(T) &kp E &kp R &kp E &kp N &kp T &kp J &kp E &kp W &kp EXCL &kp N6 &kp N9 &kp N6 &kp N7>;
+            label = "TESTMACRO";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
